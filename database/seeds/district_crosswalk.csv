@@ -1,0 +1,41 @@
+district_code,canonical_name,state_name,state_code_census,district_code_census_2011,plfs_sequential_code,plfs_district_label,trai_code,trai_district_label,boundary_change_note,data_quality_flag
+KA001,Bengaluru Urban,Karnataka,29,29220,02,BANGALORE URBAN,KA-BU,Bangalore Urban,,VERIFIED
+KA002,Bengaluru Rural,Karnataka,29,29221,03,BANGALORE RURAL,KA-BR,Bangalore Rural,,VERIFIED
+KA003,Mysuru,Karnataka,29,29222,23,MYSORE,KA-MY,Mysore,TRAI/PLFS use old spelling Mysore,SPELLING_MISMATCH
+KA004,Belagavi,Karnataka,29,29223,07,BELGAUM,KA-BG,Belgaum,TRAI/PLFS use old name Belgaum,SPELLING_MISMATCH
+KA005,Shivamogga,Karnataka,29,29224,26,SHIMOGA,KA-SH,Shimoga,TRAI/PLFS use Shimoga,SPELLING_MISMATCH
+KA006,Dakshina Kannada,Karnataka,29,29225,12,DAKSHINA KANNADA,KA-DK,Dakshina Kannada,,VERIFIED
+KA007,Kalaburagi,Karnataka,29,29226,18,GULBARGA,KA-KL,Gulbarga,TRAI/PLFS use Gulbarga. NOTE: 32% of rural PLFS sample — verify oversampling with multiplier.,SPELLING_MISMATCH
+KA008,Vijayapura,Karnataka,29,29227,05,BIJAPUR,KA-VJ,Bijapur,TRAI/PLFS use Bijapur,SPELLING_MISMATCH
+KA009,Raichur,Karnataka,29,29228,24,RAICHUR,KA-RC,Raichur,Small sample (n=115 rural). Wide confidence intervals expected.,VERIFIED
+KA010,Ballari,Karnataka,29,29229,06,BELLARY,KA-BL,Bellary,TRAI/PLFS use Bellary,SPELLING_MISMATCH
+KA011,Chitradurga,Karnataka,29,29230,11,CHITRADURGA,KA-CD,Chitradurga,,VERIFIED
+KA012,Kodagu,Karnataka,29,29231,19,KODAGU,KA-KD,Kodagu,,VERIFIED
+KA013,Tumakuru,Karnataka,29,29232,27,TUMKUR,KA-TK,Tumkur,TRAI/PLFS use Tumkur,SPELLING_MISMATCH
+KA014,Chikkamagaluru,Karnataka,29,29233,10,CHIKMAGALUR,KA-CK,Chikmagalur,TRAI uses Chikmagalur,SPELLING_MISMATCH
+KA015,Hassan,Karnataka,29,29234,16,HASSAN,KA-HS,Hassan,,VERIFIED
+KA016,Mandya,Karnataka,29,29235,22,MANDYA,KA-MD,Mandya,Small sample (n=71 rural). Wide confidence intervals expected.,VERIFIED
+KA017,Chamarajanagara,Karnataka,29,29236,08,CHAMARAJANAGAR,KA-CJ,Chamarajanagar,Minor spelling variation,SPELLING_MISMATCH
+KA018,Uttara Kannada,Karnataka,29,29237,29,UTTARA KANNADA,KA-UK,Uttara Kannada,,VERIFIED
+KA019,Udupi,Karnataka,29,29238,28,UDUPI,KA-UD,Udupi,,VERIFIED
+KA020,Chikkaballapura,Karnataka,29,29239,09,CHIKKABALLAPUR,KA-CB,Chikkaballapur,Minor spelling variation. Small sample (n=114). Very high measured unemp (57%) — verify.,SPELLING_MISMATCH
+KA021,Bagalkote,Karnataka,29,29240,01,BAGALKOT,KA-BK,Bagalkot,Minor spelling variation,SPELLING_MISMATCH
+KA022,Dharwad,Karnataka,29,29241,14,DHARWAD,KA-DH,Dharwad,,VERIFIED
+KA023,Gadag,Karnataka,29,29242,15,GADAG,KA-GG,Gadag,,VERIFIED
+KA024,Haveri,Karnataka,29,29243,17,HAVERI,KA-HV,Haveri,,VERIFIED
+KA025,Davangere,Karnataka,29,29244,13,DAVANAGERE,KA-DV,Davanagere,Minor spelling variation,SPELLING_MISMATCH
+KA026,Koppal,Karnataka,29,29245,21,KOPPAL,KA-KP,Koppal,,VERIFIED
+KA027,Yadgir,Karnataka,29,29246,30,YADGIR,KA-YD,Yadgir,,VERIFIED
+KA028,Ramanagara,Karnataka,29,29247,25,RAMANAGARA,KA-RN,Ramanagara,,VERIFIED
+KA029,Bidar,Karnataka,29,29248,04,BIDAR,KA-BD,Bidar,,VERIFIED
+KA030,Vijayanagara,Karnataka,29,29249,31,VIJAYANAGARA,KA-VN,Vijayanagara,Created 2021 from Ballari. Only 50 rural records. TRAI likely still reports as Ballari.,BOUNDARY_CHANGE
+KA031,Kolar,Karnataka,29,29250,20,KOLAR,KA-KO,Kolar,,VERIFIED
+BR001,Patna,Bihar,10,10110,,PATNA,BR-PA,Patna,,VERIFIED
+BR002,Gaya,Bihar,10,10111,,GAYA,BR-GA,Gaya,,VERIFIED
+JH001,Ranchi,Jharkhand,20,20222,,RANCHI,JH-RA,Ranchi,,VERIFIED
+JH002,Dhanbad,Jharkhand,20,20223,,DHANBAD,JH-DH,Dhanbad,,VERIFIED
+UP001,Lucknow,Uttar Pradesh,9,9430,,LUCKNOW,UP-LK,Lucknow,,VERIFIED
+UP002,Bahraich,Uttar Pradesh,9,9431,,BAHRAICH,UP-BH,Bahraich,,VERIFIED
+OR001,Khordha,Odisha,21,21310,,KHORDHA,OR-KH,Khordha,Bhubaneswar is in Khordha district,LABEL_MISMATCH
+OR002,Kalahandi,Odisha,21,21311,,KALAHANDI,OR-KL,Kalahandi,,VERIFIED
+MH001,Mumbai,Maharashtra,27,27501,,MUMBAI,MH-MB,Mumbai,,VERIFIED
