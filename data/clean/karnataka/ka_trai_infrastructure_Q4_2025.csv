@@ -1,0 +1,23 @@
+metric,value,state,period,source,granularity,data_status
+total_subscribers_mn,88.08,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+rural_subscribers_mn,27.68,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+urban_subscribers_mn,60.4,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+rural_subscriber_pct,31.43,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+rural_tele_density_pct,74.09,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+urban_tele_density_pct,191.54,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+total_tele_density_pct,127.85,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+wireless_total_mn,82.15,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+wireless_rural_mn,27.39,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+wireless_urban_mn,54.76,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+wireless_rural_pct,33.34,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+wireless_rural_tele_density,73.32,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+wireless_urban_tele_density,173.67,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+wireless_total_tele_density,119.25,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+mobile_total_mn,81.27,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+mobile_rural_mn,27.1,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+mobile_urban_mn,54.17,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+mobile_rural_tele_density,72.53,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+mobile_urban_tele_density,171.79,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+mobile_total_tele_density,117.96,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+rural_urban_tele_density_gap,117.44999999999999,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL
+rural_urban_ratio,0.387,Karnataka,Q4_2025,TRAI QPIR Q4 2025,State (LSA),REAL

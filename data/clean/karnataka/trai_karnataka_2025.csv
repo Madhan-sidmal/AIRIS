@@ -1,0 +1,14 @@
+metric_id,metric_name,state,period_end,value_total,value_rural,value_urban,rural_pct,urban_pct,unit,data_status,granularity
+KA_TOTAL_SUBS,Total Telecom Subscribers,Karnataka,2025-12-31,88.08,27.68,60.4,31.43,68.57,million,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_TOTAL_TELE_DENSITY,Total Tele-density (Wireline+Wireless),Karnataka,2025-12-31,127.85,74.09,191.54,,,percent,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_WIRELESS_SUBS,Wireless Subscribers (Mobile + Fixed Wireless),Karnataka,2025-12-31,82.15,27.39,54.76,33.34,66.66,million,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_WIRELESS_TELE_DENSITY,Wireless Tele-density (Mobile + Fixed Wireless),Karnataka,2025-12-31,119.25,73.32,173.67,,,percent,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_MOBILE_SUBS,Wireless Mobile Subscribers (excl. Fixed Wireless),Karnataka,2025-12-31,81.27,27.1,54.17,33.34,66.66,million,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_MOBILE_TELE_DENSITY,Mobile Tele-density (excl. Fixed Wireless),Karnataka,2025-12-31,117.96,72.53,171.79,,,percent,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_WIRELINE_SUBS,Wireline (Fixed Line) Subscribers,Karnataka,2025-12-31,5.92,0.29,5.63,4.89,95.11,million,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_WIRELINE_TELE_DENSITY,Wireline Tele-density,Karnataka,2025-12-31,8.6,0.78,17.87,,,percent,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_INTERNET_SUBS,Total Internet Subscribers,Karnataka,2025-12-31,65.17,22.69,42.47,34.82,65.17,million,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_INTERNET_DENSITY,Internet Subscribers per 100 Population,Karnataka,2025-12-31,94.59,60.75,134.69,,,percent,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_BROADBAND_SUBS,Estimated Broadband Subscribers (≥2Mbps),Karnataka,2025-12-31,63.82,,,,,million,DERIVED,Karnataka LSA (state level) — district data not published by TRAI
+KA_ARPU,"Average Revenue Per User (wireless, prepaid)",Karnataka,2025-12-31,208.0,,,,,INR_per_month,REAL,Karnataka LSA (state level) — district data not published by TRAI
+KA_PREPAID_PCT,Prepaid subscribers as % of total wireless,Karnataka,2025-12-31,84.45,,,,,percent,REAL,Karnataka LSA (state level) — district data not published by TRAI
