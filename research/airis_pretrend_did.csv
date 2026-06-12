@@ -1,0 +1,13 @@
+state,outcome,early_delta,late_delta,pre_trend_did,concern_level
+Karnataka,unemp_rate_wt,0.86,-2.12,2.98,MODERATE
+Karnataka,agri_share_wt,-1.19,2.16,-3.35,MODERATE
+Karnataka,nonagri_share_wt,1.19,-2.16,3.35,MODERATE
+Bihar,unemp_rate_wt,5.83,2.9,2.93,MODERATE
+Bihar,agri_share_wt,5.75,0.83,4.92,MODERATE
+Bihar,nonagri_share_wt,-5.75,-0.83,-4.92,MODERATE
+Rajasthan,unemp_rate_wt,-0.6,-1.51,0.91,LOW
+Rajasthan,agri_share_wt,-2.71,-0.26,-2.45,MODERATE
+Rajasthan,nonagri_share_wt,2.71,0.26,2.45,MODERATE
+ALL,unemp_rate_wt,1.31,0.82,0.49,LOW
+ALL,agri_share_wt,-0.23,0.7,-0.93,LOW
+ALL,nonagri_share_wt,0.23,-0.7,0.93,LOW
