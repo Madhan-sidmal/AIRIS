@@ -1,0 +1,4 @@
+state,state_code,districts_2019,districts_2021,districts_2023,matched_2019_2021,matched_2021_2023,spearman_rho_2019_2021,spearman_p_2019_2021,verdict_2021_col
+Karnataka,29,30,30,31,30,30,0.721,0.0,PROBABLE (~)
+Bihar,10,37,36,34,36,33,0.735,0.0,PROBABLE (~)
+Rajasthan,8,33,32,32,32,31,0.77,0.0,PROBABLE (~)

@@ -1,0 +1,2 @@
+total_rows,total_columns,did_2x2_rows,did_3period_rows,unique_districts_total,unique_districts_did_2x2,states,years_covered,literacy_coverage_pct,unemp_coverage_pct,zero_unknown_districts,zero_null_treatment
+295,47,69,105,101,40,3,"[2019, 2021, 2023]",100.0,100.0,True,True

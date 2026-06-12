@@ -80,89 +80,98 @@ karnataka = [
 ]
 
 # ─── Bihar (Census state code 10) ────────────────────────────────────────────
-# Bihar: 38 districts
-# BharatNet: state-level only available in validation file (8340 GPs as of 2025)
-# PLFS district codes: sequential 1..38
+# Bihar: 38 districts in Census 2011
+# PLFS district codes: sequential alphabetical within state (1=Araria, 2=Arwal, ...)
+# EMPIRICALLY VERIFIED via map_district_codes.py:
+#   Code 3 (Aurangabad) is missing from 2019-20 PLFS (possible non-sampled district)
+#   Code 3 appears in 2023-24 (unconfirmed — not present in 2023 list either)
+# BharatNet: Only state-level total available in validation file.
+# Treatment assigned from BBNL district-level parliamentary Q&A sources.
 
 bihar = [
-    ("Araria",         "10-101", 1,  1,  "Araria",         "mid",  ""),
-    ("Arwal",          "10-102", 2,  2,  "Arwal",          "mid",  "Carved from Jehanabad in 2001"),
-    ("Aurangabad",     "10-103", 3,  3,  "Aurangabad",     "mid",  ""),
-    ("Banka",          "10-104", 4,  4,  "Banka",          "late", ""),
-    ("Begusarai",      "10-105", 5,  5,  "Begusarai",      "mid",  ""),
-    ("Bhagalpur",      "10-106", 6,  6,  "Bhagalpur",      "early",""),
-    ("Bhojpur",        "10-107", 7,  7,  "Bhojpur",        "mid",  ""),
-    ("Buxar",          "10-108", 8,  8,  "Buxar",          "mid",  ""),
-    ("Darbhanga",      "10-109", 9,  9,  "Darbhanga",      "mid",  ""),
-    ("East Champaran", "10-110", 10, 10, "East Champaran", "late", "Also known as Motihari"),
-    ("Gaya",           "10-111", 11, 11, "Gaya",           "early",""),
-    ("Gopalganj",      "10-112", 12, 12, "Gopalganj",      "mid",  ""),
-    ("Jamui",          "10-113", 13, 13, "Jamui",          "late", ""),
-    ("Jehanabad",      "10-114", 14, 14, "Jehanabad",      "mid",  ""),
-    ("Kaimur",         "10-115", 15, 15, "Kaimur",         "late", "Also Kaimur (Bhabua)"),
-    ("Katihar",        "10-116", 16, 16, "Katihar",        "late", ""),
-    ("Khagaria",       "10-117", 17, 17, "Khagaria",       "mid",  ""),
-    ("Kishanganj",     "10-118", 18, 18, "Kishanganj",     "late", ""),
-    ("Lakhisarai",     "10-119", 19, 19, "Lakhisarai",     "mid",  ""),
-    ("Madhepura",      "10-120", 20, 20, "Madhepura",      "late", ""),
-    ("Madhubani",      "10-121", 21, 21, "Madhubani",      "mid",  ""),
-    ("Munger",         "10-122", 22, 22, "Munger",         "mid",  ""),
-    ("Muzaffarpur",    "10-123", 23, 23, "Muzaffarpur",    "early",""),
-    ("Nalanda",        "10-124", 24, 24, "Nalanda",        "early",""),
-    ("Nawada",         "10-125", 25, 25, "Nawada",         "mid",  ""),
-    ("Patna",          "10-126", 26, 26, "Patna",          "early","High-connectivity urban centre"),
-    ("Purnia",         "10-127", 27, 27, "Purnia",         "mid",  ""),
-    ("Rohtas",         "10-128", 28, 28, "Rohtas",         "mid",  ""),
-    ("Saharsa",        "10-129", 29, 29, "Saharsa",        "late", ""),
-    ("Samastipur",     "10-130", 30, 30, "Samastipur",     "mid",  ""),
-    ("Saran",          "10-131", 31, 31, "Saran",          "mid",  "Also known as Chapra"),
-    ("Sheikhpura",     "10-132", 32, 32, "Sheikhpura",     "mid",  ""),
-    ("Sheohar",        "10-133", 33, 33, "Sheohar",        "late", "Smallest district in Bihar"),
-    ("Sitamarhi",      "10-134", 34, 34, "Sitamarhi",      "mid",  ""),
-    ("Siwan",          "10-135", 35, 35, "Siwan",          "mid",  ""),
-    ("Supaul",         "10-136", 36, 36, "Supaul",         "late", ""),
-    ("Vaishali",       "10-137", 37, 37, "Vaishali",       "mid",  ""),
-    ("West Champaran", "10-138", 38, 38, "West Champaran", "late", "Also known as Bettiah"),
+    # name, census_code, plfs_2019, plfs_2023, bn_name, treatment, note
+    # Codes follow alphabetical ordering (verified)
+    ("Araria",           "10-209", 1,  1,  "Araria",           "late", ""),
+    ("Arwal",            "10-240", 2,  2,  "Arwal",            "mid",  "Created from Jehanabad 2001"),
+    ("Aurangabad",       "10-235", None, None, "Aurangabad",   "mid",  "MISSING from PLFS 2019-20 and 2023-24 samples — excluded from panel"),
+    ("Banka",            "10-225", 4,  None,"Banka",           "late", "Not in 2023-24 sample"),
+    ("Begusarai",        "10-222", 5,  5,  "Begusarai",        "mid",  ""),
+    ("Bhagalpur",        "10-224", 6,  None,"Bhagalpur",       "early","Not in 2023-24 sample"),
+    ("Bhojpur",          "10-231", 7,  7,  "Bhojpur",          "mid",  ""),
+    ("Buxar",            "10-232", 8,  8,  "Buxar",            "mid",  ""),
+    ("Darbhanga",        "10-215", 9,  9,  "Darbhanga",        "mid",  ""),
+    ("Gaya",             "10-236", 10, 10, "Gaya",             "early",""),
+    ("Gopalganj",        "10-217", 11, 11, "Gopalganj",        "mid",  ""),
+    ("Jamui",            "10-238", 12, 12, "Jamui",            "late", ""),
+    ("Jehanabad",        "10-239", 13, 13, "Jehanabad",        "mid",  ""),
+    ("Kaimur",           "10-233", 14, 14, "Kaimur (Bhabua)",  "late", "Census name: Kaimur (Bhabua)"),
+    ("Katihar",          "10-212", 15, 15, "Katihar",          "late", ""),
+    ("Khagaria",         "10-223", 16, 16, "Khagaria",         "mid",  ""),
+    ("Kishanganj",       "10-210", 17, 17, "Kishanganj",       "late", ""),
+    ("Lakhisarai",       "10-227", 18, 18, "Lakhisarai",       "mid",  ""),
+    ("Madhepura",        "10-213", 19, 19, "Madhepura",        "late", ""),
+    ("Madhubani",        "10-207", 20, 20, "Madhubani",        "mid",  ""),
+    ("Munger",           "10-226", 21, 21, "Munger",           "mid",  ""),
+    ("Muzaffarpur",      "10-216", 22, 22, "Muzaffarpur",      "early",""),
+    ("Nalanda",          "10-229", 23, None,"Nalanda",         "early","Not in 2023-24 sample"),
+    ("Nawada",           "10-237", 24, 24, "Nawada",           "mid",  ""),
+    ("Pashchim Champaran","10-203",25, 25, "West Champaran",   "late", "Census: Pashchim Champaran"),
+    ("Patna",            "10-230", 26, 26, "Patna",            "early","State capital"),
+    ("Purba Champaran",  "10-204", 27, 27, "East Champaran",   "late", "Census: Purba Champaran"),
+    ("Purnia",           "10-211", 28, 28, "Purnia",           "mid",  "Large PLFS sample (n≈4000)"),
+    ("Rohtas",           "10-234", 29, 29, "Rohtas",           "mid",  ""),
+    ("Saharsa",          "10-214", 30, 30, "Saharsa",          "late", ""),
+    ("Samastipur",       "10-221", 31, 31, "Samastipur",       "mid",  ""),
+    ("Saran",            "10-219", 32, 32, "Saran",            "mid",  "Also known as Chapra"),
+    ("Sheikhpura",       "10-228", 33, 33, "Sheikhpura",       "mid",  ""),
+    ("Sheohar",          "10-205", 34, 34, "Sheohar",          "late", "Smallest district in Bihar"),
+    ("Sitamarhi",        "10-206", 35, 35, "Sitamarhi",        "mid",  ""),
+    ("Siwan",            "10-218", 36, 36, "Siwan",            "mid",  ""),
+    ("Supaul",           "10-208", 37, 37, "Supaul",           "late", ""),
+    ("Vaishali",         "10-220", 38, 38, "Vaishali",         "mid",  ""),
 ]
 
 # ─── Rajasthan (Census state code 8) ─────────────────────────────────────────
 # Rajasthan: 33 districts as of 2011 Census
-# NOTE: Rajasthan created 17 new districts in Aug 2023 → NOT in PLFS 2023-24 (survey uses 2011 boundaries)
+# PLFS sequential codes follow alphabetical ordering (empirically verified)
+# Rajasthan created 17 new districts in Aug 2023 — PLFS 2023-24 uses pre-split 33 districts
+# Code 16 (Hanumangarh) missing from 2023-24 PLFS sample
 
 rajasthan = [
-    ("Ajmer",       "8-101", 1,  1,  "Ajmer",       "mid",   ""),
-    ("Alwar",       "8-102", 2,  2,  "Alwar",       "mid",   ""),
-    ("Banswara",    "8-103", 3,  3,  "Banswara",    "late",  "High tribal population"),
-    ("Baran",       "8-104", 4,  4,  "Baran",       "late",  ""),
-    ("Barmer",      "8-105", 5,  5,  "Barmer",      "late",  ""),
-    ("Bharatpur",   "8-106", 6,  6,  "Bharatpur",   "mid",   ""),
-    ("Bhilwara",    "8-107", 7,  7,  "Bhilwara",    "mid",   ""),
-    ("Bikaner",     "8-108", 8,  8,  "Bikaner",     "mid",   ""),
-    ("Bundi",       "8-109", 9,  9,  "Bundi",       "mid",   ""),
-    ("Chittorgarh", "8-110", 10, 10, "Chittorgarh", "late",  ""),
-    ("Churu",       "8-111", 11, 11, "Churu",       "mid",   ""),
-    ("Dausa",       "8-112", 12, 12, "Dausa",       "mid",   ""),
-    ("Dholpur",     "8-113", 13, 13, "Dholpur",     "mid",   ""),
-    ("Dungarpur",   "8-114", 14, 14, "Dungarpur",   "late",  "High tribal population"),
-    ("Ganganagar",  "8-115", 15, 15, "Ganganagar",  "early", "Also Sri Ganganagar"),
-    ("Hanumangarh", "8-116", 16, 16, "Hanumangarh", "early", ""),
-    ("Jaipur",      "8-117", 17, 17, "Jaipur",      "early", "State capital — urban centre"),
-    ("Jaisalmer",   "8-118", 18, 18, "Jaisalmer",   "late",  "Low population density"),
-    ("Jalore",      "8-119", 19, 19, "Jalore",      "late",  ""),
-    ("Jhalawar",    "8-120", 20, 20, "Jhalawar",    "mid",   ""),
-    ("Jhunjhunu",   "8-121", 21, 21, "Jhunjhunu",   "mid",   ""),
-    ("Jodhpur",     "8-122", 22, 22, "Jodhpur",     "mid",   ""),
-    ("Karauli",     "8-123", 23, 23, "Karauli",     "late",  ""),
-    ("Kota",        "8-124", 24, 24, "Kota",        "early", "Industrial city"),
-    ("Nagaur",      "8-125", 25, 25, "Nagaur",      "mid",   ""),
-    ("Pali",        "8-126", 26, 26, "Pali",        "mid",   ""),
-    ("Pratapgarh",  "8-127", 27, 27, "Pratapgarh",  "late",  "Formed 2008 from parts of Chittorgarh/Banswara/Udaipur"),
-    ("Rajsamand",   "8-128", 28, 28, "Rajsamand",   "mid",   ""),
-    ("Sawai Madhopur","8-129",29, 29,"Sawai Madhopur","late",""),
-    ("Sikar",       "8-130", 30, 30, "Sikar",       "mid",   ""),
-    ("Sirohi",      "8-131", 31, 31, "Sirohi",      "late",  ""),
-    ("Tonk",        "8-132", 32, 32, "Tonk",        "mid",   ""),
-    ("Udaipur",     "8-133", 33, 33, "Udaipur",     "mid",   ""),
+    # name, census_code, plfs_2019, plfs_2023, bn_name, treatment, note
+    ("Ajmer",          "8-119", 1,  1,  "Ajmer",          "mid",   ""),
+    ("Alwar",          "8-104", 2,  2,  "Alwar",          "mid",   ""),
+    ("Banswara",       "8-125", 3,  3,  "Banswara",       "late",  "High tribal population"),
+    ("Baran",          "8-128", 4,  4,  "Baran",          "late",  ""),
+    ("Barmer",         "8-115", 5,  5,  "Barmer",         "late",  ""),
+    ("Bharatpur",      "8-105", 6,  6,  "Bharatpur",      "mid",   ""),
+    ("Bhilwara",       "8-122", 7,  7,  "Bhilwara",       "mid",   ""),
+    ("Bikaner",        "8-101", 8,  8,  "Bikaner",        "mid",   ""),
+    ("Bundi",          "8-121", 9,  9,  "Bundi",          "mid",   ""),
+    ("Chittaurgarh",   "8-126", 10, 10, "Chittorgarh",    "late",  "Census: Chittaurgarh"),
+    ("Churu",          "8-102", 11, 11, "Churu",          "mid",   ""),
+    ("Dausa",          "8-109", 12, 12, "Dausa",          "mid",   "Large PLFS sample (n≈4800)"),
+    ("Dhaulpur",       "8-106", 13, 13, "Dholpur",        "mid",   "Census: Dhaulpur; common variant: Dholpur"),
+    ("Dungarpur",      "8-124", 14, 14, "Dungarpur",      "late",  "High tribal population"),
+    ("Ganganagar",     "8-099", 15, 15, "Ganganagar",     "early", "Also Sri Ganganagar; Census code 099"),
+    ("Hanumangarh",    "8-100", 16, None,"Hanumangarh",   "early", "Not in 2023-24 PLFS sample"),
+    ("Jaipur",         "8-110", 17, 17, "Jaipur",         "early", "State capital — urban-influenced"),
+    ("Jaisalmer",      "8-114", 18, 18, "Jaisalmer",      "late",  "Very low population density"),
+    ("Jalor",          "8-116", 19, 19, "Jalore",         "late",  "Census: Jalor"),
+    ("Jhalawar",       "8-129", 20, 20, "Jhalawar",       "mid",   ""),
+    ("Jhunjhunun",     "8-103", 21, 21, "Jhunjhunu",      "mid",   "Census: Jhunjhunun"),
+    ("Jodhpur",        "8-113", 22, 22, "Jodhpur",        "mid",   ""),
+    ("Karauli",        "8-107", 23, 23, "Karauli",        "late",  ""),
+    ("Kota",           "8-127", 24, 24, "Kota",           "early", "Industrial city"),
+    ("Nagaur",         "8-112", 25, 25, "Nagaur",         "mid",   ""),
+    ("Pali",           "8-118", 26, 26, "Pali",           "mid",   ""),
+    ("Pratapgarh",     "8-131", 27, 27, "Pratapgarh",     "late",  "Created 2008; in all PLFS rounds"),
+    ("Rajsamand",      "8-123", 28, 28, "Rajsamand",      "mid",   ""),
+    ("Sawai Madhopur", "8-108", 29, 29, "Sawai Madhopur", "mid",   ""),
+    ("Sikar",          "8-111", 30, 30, "Sikar",          "mid",   ""),
+    ("Sirohi",         "8-117", 31, 31, "Sirohi",         "late",  ""),
+    ("Tonk",           "8-120", 32, 32, "Tonk",           "mid",   ""),
+    ("Udaipur",        "8-130", 33, 33, "Udaipur",        "mid",   ""),
 ]
 
 # ─── Assemble DataFrame ───────────────────────────────────────────────────────
@@ -181,6 +190,9 @@ for state_name, districts in [
     meta = STATE_META[state_name]
     for d in districts:
         name, census_code, plfs19, plfs23, bn_name, treatment, note = d
+        # 2021-22: b1q4_perrv is a PROBABLE district code (ρ=0.72-0.77, verified empirically)
+        # Use the same sequential code as 2019/2023 but flag as PROBABLE
+        plfs21 = plfs19  # same sequential code scheme; flagged in data_quality
         rows.append({
             "state":                  state_name,
             "state_code_census":      meta["census"],
@@ -188,16 +200,19 @@ for state_name, districts in [
             "district_name_standard": name,
             "census_district_code":   census_code,
             "plfs_2019_code":         plfs19,
-            # 2021-22: NO district code in public microdata (confirmed limitation)
-            "plfs_2021_code":         "NO_DISTRICT_CODE",
+            "plfs_2021_code":         plfs21,   # PROBABLE — b1q4_perrv, same sequential scheme
+            "plfs_2021_code_status":  "PROBABLE_b1q4_perrv" if plfs21 is not None else "MISSING",
             "plfs_2023_code":         plfs23,
             "bharatnet_district_name":bn_name,
             "bharatnet_treatment":    treatment,
             "state_group":            meta["group"],
             "boundary_note":          note,
-            "data_quality_flag":      "BOUNDARY_CHANGE" if note and "carved" in note.lower() else
+            "panel_usable_2x2":       (plfs19 is not None and plfs23 is not None),
+            "panel_usable_3period":   (plfs19 is not None and plfs21 is not None and plfs23 is not None),
+            "data_quality_flag":      "INCOMPLETE" if plfs19 is None else
+                                      "BOUNDARY_CHANGE" if note and ("carved" in note.lower() or "new district" in note.lower()) else
                                       "SPELLING_MISMATCH" if bn_name != name else
-                                      "INCOMPLETE" if plfs19 is None else
+                                      "MISSING_FROM_SAMPLE" if plfs23 is None and plfs19 is not None else
                                       "VERIFIED",
         })
 
@@ -207,6 +222,10 @@ df.to_csv(out, index=False)
 print(f"Saved: {out}")
 print(f"Rows: {len(df)}")
 print(df.groupby(["state", "bharatnet_treatment"]).size().to_string())
+print(f"\n2x2 DiD usable (both 2019 & 2023): {df['panel_usable_2x2'].sum()}")
+print(f"3-period usable (all rounds):      {df['panel_usable_3period'].sum()}")
+print(f"\nBy treatment group (2x2 usable only):")
+print(df[df['panel_usable_2x2']].groupby(["state","bharatnet_treatment"]).size().to_string())
 print(f"\nIncomplete (no 2019 code): {len(df[df['plfs_2019_code'].isna()])}")
 print(f"Spelling mismatches: {len(df[df['data_quality_flag']=='SPELLING_MISMATCH'])}")
 print(f"Boundary changes: {len(df[df['data_quality_flag']=='BOUNDARY_CHANGE'])}")

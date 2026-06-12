@@ -1,0 +1,13 @@
+variable,n_missing,pct_missing,n_valid
+unemp_rate_wt,0,0.0,295
+agri_share_wt,0,0.0,295
+nonagri_share_wt,0,0.0,295
+edu_secondary_wt,295,100.0,0
+log_wage_median,89,30.2,206
+literacy_rate,0,0.0,295
+urban_share,0,0.0,295
+sc_share,0,0.0,295
+st_share,0,0.0,295
+worker_participation_rate,0,0.0,295
+agri_worker_share,0,0.0,295
+bharatnet_treatment,0,0.0,295
