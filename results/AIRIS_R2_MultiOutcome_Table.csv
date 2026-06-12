@@ -1,0 +1,6 @@
+tier,outcome_var,outcome_label,beta3,se_clustered,t_stat,p_asymptotic,p_wildboot,ci_lo_asy,ci_hi_asy,ci_lo_boot,ci_hi_boot,n_clusters,n_obs,r2_within,early_pre,early_post,delta_early,late_pre,late_post,delta_late,naive_did
+PRIMARY,unemp_rate_wt,Unemployment rate (%),3.0325,1.5509,1.955,0.0614,0.04,-0.1553,6.2204,0.0663,5.8398,27,48,0.1473,7.329,8.068,0.74,11.329,9.685,-1.644,2.384
+SECONDARY,agri_share_wt,Agricultural employment share (%),-0.268,1.526,-0.176,0.862,0.8669,-3.4048,2.8688,-3.0585,2.6151,27,48,0.0014,51.986,51.903,-0.083,50.73,52.267,1.537,-1.62
+SECONDARY,nonagri_share_wt,Non-agricultural employment share (%),0.268,1.526,0.176,0.862,0.8669,-2.8688,3.4048,-2.6151,3.0585,27,48,0.0014,48.014,48.097,0.083,49.27,47.733,-1.537,1.62
+SECONDARY,services_share,Services employment share (%),-0.1874,2.6487,-0.071,0.9441,0.9319,-5.6319,5.2571,-5.6259,4.7124,27,48,0.0002,26.445,27.962,1.517,26.16,28.14,1.98,-0.463
+TERTIARY,log_wage_median,Log weekly wage (median),0.0103,0.0773,0.133,0.8955,0.9199,-0.1489,0.1695,-0.1256,0.1362,26,46,0.0009,3.817,3.841,0.025,3.814,3.798,-0.016,0.041
