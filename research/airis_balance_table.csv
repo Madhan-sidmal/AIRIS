@@ -1,0 +1,12 @@
+variable,early_n,early_mean,early_sd,late_n,late_mean,late_sd,diff,norm_diff,p_ttest,status
+"Literacy rate (Census 2011, %)",17,74.27,6.92,23,59.38,5.66,14.89,2.357,0.0,❌ Imbalanced
+"Female literacy rate (Census 2011, %)",17,66.29,8.56,23,47.54,6.39,18.75,2.481,0.0,❌ Imbalanced
+"Scheduled Caste share (Census 2011, %)",17,19.71,7.01,23,16.11,5.54,3.6,0.569,0.09,❌ Imbalanced
+"Scheduled Tribe share (Census 2011, %)",17,5.15,4.12,23,13.15,20.57,-8.0,-0.54,0.081,❌ Imbalanced
+"Urban population share (Census 2011, %)",17,29.74,15.87,23,12.26,8.51,17.48,1.373,0.0,❌ Imbalanced
+"Worker participation rate (Census 2011, %)",17,44.51,6.01,23,41.19,6.08,3.33,0.55,0.094,❌ Imbalanced
+"Agricultural worker share (Census 2011, %)",17,49.93,18.81,23,73.94,9.54,-24.01,-1.61,0.0,❌ Imbalanced
+"Unemployment rate (PLFS 2019-20, %)",17,7.0,4.25,23,8.75,5.36,-1.75,-0.363,0.255,⚠️ Marginal
+"Agricultural employment share (PLFS 2019-20, %)",17,51.65,2.74,23,51.67,4.18,-0.02,-0.006,0.984,✅ Balanced
+"Non-agricultural employment share (PLFS 2019-20, %)",17,48.35,2.74,23,48.33,4.18,0.02,0.006,0.984,✅ Balanced
+Median log weekly wage (PLFS 2019-20),16,3.75,0.31,15,3.83,0.17,-0.08,-0.314,0.388,⚠️ Marginal
