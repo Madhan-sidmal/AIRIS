@@ -1,0 +1,103 @@
+state,state_code_census,state_code_plfs,district_name_standard,census_district_code,plfs_2019_code,plfs_2021_code,plfs_2023_code,bharatnet_district_name,bharatnet_treatment,state_group,boundary_note,data_quality_flag
+Karnataka,29,29,Bagalkote,29-201,1.0,NO_DISTRICT_CODE,1,Bagalkote,mid,high_connectivity,,VERIFIED
+Karnataka,29,29,Bengaluru Urban,29-202,2.0,NO_DISTRICT_CODE,2,Bangalore Urban,early,high_connectivity,Urban district — structurally distinct; consider exclusion from DiD,SPELLING_MISMATCH
+Karnataka,29,29,Bengaluru Rural,29-203,3.0,NO_DISTRICT_CODE,3,Bangalore Rural,early,high_connectivity,,SPELLING_MISMATCH
+Karnataka,29,29,Bidar,29-204,4.0,NO_DISTRICT_CODE,4,Bidar,late,high_connectivity,,VERIFIED
+Karnataka,29,29,Vijayapura,29-205,5.0,NO_DISTRICT_CODE,5,Bijapur,late,high_connectivity,PLFS/older sources use Bijapur,SPELLING_MISMATCH
+Karnataka,29,29,Ballari,29-206,6.0,NO_DISTRICT_CODE,6,Bellary,mid,high_connectivity,Vijayanagara carved from Ballari in 2021; 2019-20 panel uses Ballari only,BOUNDARY_CHANGE
+Karnataka,29,29,Belagavi,29-207,7.0,NO_DISTRICT_CODE,7,Belgaum,mid,high_connectivity,PLFS uses old name Belgaum,SPELLING_MISMATCH
+Karnataka,29,29,Chamarajanagara,29-208,8.0,NO_DISTRICT_CODE,8,Chamarajanagar,mid,high_connectivity,Spelling variant,SPELLING_MISMATCH
+Karnataka,29,29,Chikkaballapura,29-209,9.0,NO_DISTRICT_CODE,9,Chikkaballapura,early,high_connectivity,,VERIFIED
+Karnataka,29,29,Chikkamagaluru,29-210,10.0,NO_DISTRICT_CODE,10,Chikmagalur,early,high_connectivity,PLFS uses old name Chikmagalur,SPELLING_MISMATCH
+Karnataka,29,29,Chitradurga,29-211,11.0,NO_DISTRICT_CODE,11,Chitradurga,mid,high_connectivity,,VERIFIED
+Karnataka,29,29,Dakshina Kannada,29-212,12.0,NO_DISTRICT_CODE,12,Dakshina Kannada,early,high_connectivity,,VERIFIED
+Karnataka,29,29,Davangere,29-213,13.0,NO_DISTRICT_CODE,13,Davanagere,mid,high_connectivity,Spelling variant,SPELLING_MISMATCH
+Karnataka,29,29,Dharwad,29-214,14.0,NO_DISTRICT_CODE,14,Dharwad,early,high_connectivity,,VERIFIED
+Karnataka,29,29,Gadag,29-215,15.0,NO_DISTRICT_CODE,15,Gadag,mid,high_connectivity,,VERIFIED
+Karnataka,29,29,Hassan,29-216,16.0,NO_DISTRICT_CODE,16,Hassan,early,high_connectivity,,VERIFIED
+Karnataka,29,29,Haveri,29-217,17.0,NO_DISTRICT_CODE,17,Haveri,mid,high_connectivity,,VERIFIED
+Karnataka,29,29,Kalaburagi,29-218,18.0,NO_DISTRICT_CODE,18,Gulbarga,late,high_connectivity,Census/new name Kalaburagi; PLFS uses Gulbarga,SPELLING_MISMATCH
+Karnataka,29,29,Kodagu,29-219,19.0,NO_DISTRICT_CODE,19,Kodagu,early,high_connectivity,,VERIFIED
+Karnataka,29,29,Kolar,29-220,20.0,NO_DISTRICT_CODE,20,Kolar,early,high_connectivity,,VERIFIED
+Karnataka,29,29,Koppal,29-221,21.0,NO_DISTRICT_CODE,21,Koppal,late,high_connectivity,,VERIFIED
+Karnataka,29,29,Mandya,29-222,22.0,NO_DISTRICT_CODE,22,Mandya,early,high_connectivity,,VERIFIED
+Karnataka,29,29,Mysuru,29-223,23.0,NO_DISTRICT_CODE,23,Mysore,early,high_connectivity,PLFS uses old name Mysore,SPELLING_MISMATCH
+Karnataka,29,29,Raichur,29-224,24.0,NO_DISTRICT_CODE,24,Raichur,late,high_connectivity,,VERIFIED
+Karnataka,29,29,Ramanagara,29-225,25.0,NO_DISTRICT_CODE,25,Ramanagara,early,high_connectivity,,VERIFIED
+Karnataka,29,29,Shivamogga,29-226,26.0,NO_DISTRICT_CODE,26,Shimoga,mid,high_connectivity,PLFS uses old name Shimoga,SPELLING_MISMATCH
+Karnataka,29,29,Tumakuru,29-227,27.0,NO_DISTRICT_CODE,27,Tumkur,early,high_connectivity,PLFS uses old name Tumkur,SPELLING_MISMATCH
+Karnataka,29,29,Udupi,29-228,28.0,NO_DISTRICT_CODE,28,Udupi,early,high_connectivity,,VERIFIED
+Karnataka,29,29,Uttara Kannada,29-229,29.0,NO_DISTRICT_CODE,29,Uttar Kannada,mid,high_connectivity,Spelling variant in older sources,SPELLING_MISMATCH
+Karnataka,29,29,Yadgir,29-230,30.0,NO_DISTRICT_CODE,30,Yadgir,late,high_connectivity,,VERIFIED
+Karnataka,29,29,Vijayanagara,29-231,,NO_DISTRICT_CODE,31,Vijayanagara,late,high_connectivity,NEW DISTRICT: carved from Ballari in 2021. NO 2019-20 code. Use Ballari (code 6) as proxy for pre-period.,BOUNDARY_CHANGE
+Bihar,10,10,Araria,10-101,1.0,NO_DISTRICT_CODE,1,Araria,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Arwal,10-102,2.0,NO_DISTRICT_CODE,2,Arwal,mid,low_connectivity,Carved from Jehanabad in 2001,BOUNDARY_CHANGE
+Bihar,10,10,Aurangabad,10-103,3.0,NO_DISTRICT_CODE,3,Aurangabad,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Banka,10-104,4.0,NO_DISTRICT_CODE,4,Banka,late,low_connectivity,,VERIFIED
+Bihar,10,10,Begusarai,10-105,5.0,NO_DISTRICT_CODE,5,Begusarai,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Bhagalpur,10-106,6.0,NO_DISTRICT_CODE,6,Bhagalpur,early,low_connectivity,,VERIFIED
+Bihar,10,10,Bhojpur,10-107,7.0,NO_DISTRICT_CODE,7,Bhojpur,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Buxar,10-108,8.0,NO_DISTRICT_CODE,8,Buxar,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Darbhanga,10-109,9.0,NO_DISTRICT_CODE,9,Darbhanga,mid,low_connectivity,,VERIFIED
+Bihar,10,10,East Champaran,10-110,10.0,NO_DISTRICT_CODE,10,East Champaran,late,low_connectivity,Also known as Motihari,VERIFIED
+Bihar,10,10,Gaya,10-111,11.0,NO_DISTRICT_CODE,11,Gaya,early,low_connectivity,,VERIFIED
+Bihar,10,10,Gopalganj,10-112,12.0,NO_DISTRICT_CODE,12,Gopalganj,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Jamui,10-113,13.0,NO_DISTRICT_CODE,13,Jamui,late,low_connectivity,,VERIFIED
+Bihar,10,10,Jehanabad,10-114,14.0,NO_DISTRICT_CODE,14,Jehanabad,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Kaimur,10-115,15.0,NO_DISTRICT_CODE,15,Kaimur,late,low_connectivity,Also Kaimur (Bhabua),VERIFIED
+Bihar,10,10,Katihar,10-116,16.0,NO_DISTRICT_CODE,16,Katihar,late,low_connectivity,,VERIFIED
+Bihar,10,10,Khagaria,10-117,17.0,NO_DISTRICT_CODE,17,Khagaria,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Kishanganj,10-118,18.0,NO_DISTRICT_CODE,18,Kishanganj,late,low_connectivity,,VERIFIED
+Bihar,10,10,Lakhisarai,10-119,19.0,NO_DISTRICT_CODE,19,Lakhisarai,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Madhepura,10-120,20.0,NO_DISTRICT_CODE,20,Madhepura,late,low_connectivity,,VERIFIED
+Bihar,10,10,Madhubani,10-121,21.0,NO_DISTRICT_CODE,21,Madhubani,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Munger,10-122,22.0,NO_DISTRICT_CODE,22,Munger,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Muzaffarpur,10-123,23.0,NO_DISTRICT_CODE,23,Muzaffarpur,early,low_connectivity,,VERIFIED
+Bihar,10,10,Nalanda,10-124,24.0,NO_DISTRICT_CODE,24,Nalanda,early,low_connectivity,,VERIFIED
+Bihar,10,10,Nawada,10-125,25.0,NO_DISTRICT_CODE,25,Nawada,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Patna,10-126,26.0,NO_DISTRICT_CODE,26,Patna,early,low_connectivity,High-connectivity urban centre,VERIFIED
+Bihar,10,10,Purnia,10-127,27.0,NO_DISTRICT_CODE,27,Purnia,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Rohtas,10-128,28.0,NO_DISTRICT_CODE,28,Rohtas,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Saharsa,10-129,29.0,NO_DISTRICT_CODE,29,Saharsa,late,low_connectivity,,VERIFIED
+Bihar,10,10,Samastipur,10-130,30.0,NO_DISTRICT_CODE,30,Samastipur,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Saran,10-131,31.0,NO_DISTRICT_CODE,31,Saran,mid,low_connectivity,Also known as Chapra,VERIFIED
+Bihar,10,10,Sheikhpura,10-132,32.0,NO_DISTRICT_CODE,32,Sheikhpura,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Sheohar,10-133,33.0,NO_DISTRICT_CODE,33,Sheohar,late,low_connectivity,Smallest district in Bihar,VERIFIED
+Bihar,10,10,Sitamarhi,10-134,34.0,NO_DISTRICT_CODE,34,Sitamarhi,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Siwan,10-135,35.0,NO_DISTRICT_CODE,35,Siwan,mid,low_connectivity,,VERIFIED
+Bihar,10,10,Supaul,10-136,36.0,NO_DISTRICT_CODE,36,Supaul,late,low_connectivity,,VERIFIED
+Bihar,10,10,Vaishali,10-137,37.0,NO_DISTRICT_CODE,37,Vaishali,mid,low_connectivity,,VERIFIED
+Bihar,10,10,West Champaran,10-138,38.0,NO_DISTRICT_CODE,38,West Champaran,late,low_connectivity,Also known as Bettiah,VERIFIED
+Rajasthan,8,8,Ajmer,8-101,1.0,NO_DISTRICT_CODE,1,Ajmer,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Alwar,8-102,2.0,NO_DISTRICT_CODE,2,Alwar,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Banswara,8-103,3.0,NO_DISTRICT_CODE,3,Banswara,late,intermediate,High tribal population,VERIFIED
+Rajasthan,8,8,Baran,8-104,4.0,NO_DISTRICT_CODE,4,Baran,late,intermediate,,VERIFIED
+Rajasthan,8,8,Barmer,8-105,5.0,NO_DISTRICT_CODE,5,Barmer,late,intermediate,,VERIFIED
+Rajasthan,8,8,Bharatpur,8-106,6.0,NO_DISTRICT_CODE,6,Bharatpur,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Bhilwara,8-107,7.0,NO_DISTRICT_CODE,7,Bhilwara,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Bikaner,8-108,8.0,NO_DISTRICT_CODE,8,Bikaner,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Bundi,8-109,9.0,NO_DISTRICT_CODE,9,Bundi,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Chittorgarh,8-110,10.0,NO_DISTRICT_CODE,10,Chittorgarh,late,intermediate,,VERIFIED
+Rajasthan,8,8,Churu,8-111,11.0,NO_DISTRICT_CODE,11,Churu,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Dausa,8-112,12.0,NO_DISTRICT_CODE,12,Dausa,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Dholpur,8-113,13.0,NO_DISTRICT_CODE,13,Dholpur,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Dungarpur,8-114,14.0,NO_DISTRICT_CODE,14,Dungarpur,late,intermediate,High tribal population,VERIFIED
+Rajasthan,8,8,Ganganagar,8-115,15.0,NO_DISTRICT_CODE,15,Ganganagar,early,intermediate,Also Sri Ganganagar,VERIFIED
+Rajasthan,8,8,Hanumangarh,8-116,16.0,NO_DISTRICT_CODE,16,Hanumangarh,early,intermediate,,VERIFIED
+Rajasthan,8,8,Jaipur,8-117,17.0,NO_DISTRICT_CODE,17,Jaipur,early,intermediate,State capital — urban centre,VERIFIED
+Rajasthan,8,8,Jaisalmer,8-118,18.0,NO_DISTRICT_CODE,18,Jaisalmer,late,intermediate,Low population density,VERIFIED
+Rajasthan,8,8,Jalore,8-119,19.0,NO_DISTRICT_CODE,19,Jalore,late,intermediate,,VERIFIED
+Rajasthan,8,8,Jhalawar,8-120,20.0,NO_DISTRICT_CODE,20,Jhalawar,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Jhunjhunu,8-121,21.0,NO_DISTRICT_CODE,21,Jhunjhunu,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Jodhpur,8-122,22.0,NO_DISTRICT_CODE,22,Jodhpur,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Karauli,8-123,23.0,NO_DISTRICT_CODE,23,Karauli,late,intermediate,,VERIFIED
+Rajasthan,8,8,Kota,8-124,24.0,NO_DISTRICT_CODE,24,Kota,early,intermediate,Industrial city,VERIFIED
+Rajasthan,8,8,Nagaur,8-125,25.0,NO_DISTRICT_CODE,25,Nagaur,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Pali,8-126,26.0,NO_DISTRICT_CODE,26,Pali,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Pratapgarh,8-127,27.0,NO_DISTRICT_CODE,27,Pratapgarh,late,intermediate,Formed 2008 from parts of Chittorgarh/Banswara/Udaipur,VERIFIED
+Rajasthan,8,8,Rajsamand,8-128,28.0,NO_DISTRICT_CODE,28,Rajsamand,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Sawai Madhopur,8-129,29.0,NO_DISTRICT_CODE,29,Sawai Madhopur,late,intermediate,,VERIFIED
+Rajasthan,8,8,Sikar,8-130,30.0,NO_DISTRICT_CODE,30,Sikar,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Sirohi,8-131,31.0,NO_DISTRICT_CODE,31,Sirohi,late,intermediate,,VERIFIED
+Rajasthan,8,8,Tonk,8-132,32.0,NO_DISTRICT_CODE,32,Tonk,mid,intermediate,,VERIFIED
+Rajasthan,8,8,Udaipur,8-133,33.0,NO_DISTRICT_CODE,33,Udaipur,mid,intermediate,,VERIFIED
