@@ -1,0 +1,6 @@
+specification,beta3_pp,se_clustered,t_stat,p_value_asymptotic,ci_lo_95,ci_hi_95,n_clusters,n_obs,r2_within,p_value_wildboot,ci_lo_boot,ci_hi_boot
+R1: KA only,3.003,1.884,1.59,0.13,-0.99,6.997,17,30,0.165,,,
+R2: KA+RJ (main),3.033,1.551,1.96,0.061,-0.155,6.22,27,48,0.147,0.04,0.066,5.84
+R3: KA+RJ excl. Kalaburagi,3.073,1.634,1.88,0.072,-0.293,6.438,26,46,0.147,,,
+R4: KA+RJ excl. urban outliers,2.307,1.677,1.38,0.183,-1.17,5.784,23,41,0.092,,,
+R5: KA excl. Kalaburagi,3.21,2.096,1.53,0.147,-1.258,7.678,16,28,0.171,,,
