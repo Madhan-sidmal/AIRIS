@@ -72,29 +72,28 @@ GRADE_THRESHOLDS = {"A": 500, "B": 300, "C": 200, "D": 0}
 # PLFS column name variants across rounds
 # Some column names changed between 2019-20 and 2023-24
 COLUMN_ALIASES = {
-    # 2023-24 PLFS (_perrv suffix convention)
-    "dist_code_perrv":   "district_code",
+    # ─── 2023-24 PLFS (_perrv suffix) ───────────────────────────────────────
+    "dist_code_perrv":   "district_code",   # 2023-24 district sequential code
     "state_perrv":       "state_code_col",
     "mult_perrv":        "weight",
-    "b4q4_perrv":        "activity_status",   # principal activity status
-    "b4q5_perrv":        "nic_industry",       # NIC 2-digit industry
-    "b4q6_perrv":        "nic_industry",       # fallback
-    "b3q10_perrv":       "wage_per_day",       # earnings
-    "b3q11_perrv":       "wage_per_day",       # fallback earnings
-    "b2q7_perrv":        "education",          # general education level
+    "b4q4_perrv":        "activity_status",  # principal activity status (1-9)
+    # b4q5_perrv = broad sector (1=Agri, 2=Industry, 3=Services) — USE THIS for agri share
+    # b4q6_perrv = NIC 2-digit industry code — USE THIS for services sub-split only
+    "b2q7_perrv":        "education",        # general education level
     "b2q3_perrv":        "age",
-    # 2019-20 PLFS (B_ prefix convention — TBD on download)
-    "district":          "district_code",
-    "District":          "district_code",
-    "B_009":             "district_code",
-    "B_019":             "activity_status",
-    "B_020":             "nic_industry",
-    "B_021":             "nic_industry",
-    "B_054":             "wage_per_day",
-    "B_041":             "wage_per_day",
-    "B_007":             "education",
-    "B_006":             "education",
-    "B_003":             "age",
+    "b6q5_3pt1_perrv":   "wage_earnings",    # earnings for principal activity
+    # ─── 2021-22 PLFS (same _perrv suffix, but district col is b1q4_perrv) ──
+    "b1q4_perrv":        "district_code",    # 2021-22 district sequential code
+    # ─── 2019-20 PLFS (_per_rv suffix) ──────────────────────────────────────
+    "district_per_rv":   "district_code",   # 2019-20 district sequential code
+    "state_per_rv":      "state_code_col",
+    "MULT_per_rv":       "weight",
+    "mult_per_rv":       "weight",
+    "b4q4_per_rv":       "activity_status",  # activity status in 2019-20
+    # b4q5_per_rv = broad sector (1=Agri, 2=Industry, 3=Services) — SAME CODING
+    # b4q6_per_rv = NIC 2-digit
+    "b2q7_per_rv":       "education",
+    "b2q3_per_rv":       "age",
 }
 
 
@@ -239,27 +238,34 @@ def compute_district_stats(df: pd.DataFrame, state_code: int, year: int,
         if w_total == 0:
             continue
 
-        # Sector shares — b4q6_perrv is the NIC 2-digit column in 2023-24
-        # b4q5_perrv is only broad sector (1=agri, 2=non-agri)
+        # ─── Sector shares ───────────────────────────────────────────────────
+        # CONFIRMED: b4q5 = broad sector flag (1=Agriculture, 2=Industry, 3=Services)
+        # This coding is CONSISTENT across 2019-20, 2021-22, 2023-24
+        # Do NOT use b4q5 as NIC code — it has only 3 values (1,2,3)
+        # Do NOT use b4q6 for agriculture — b4q6 is NIC-2 digit (0-96)
         agri_share, nonagri_share, svc_share = None, None, None
-        broad_nic_col = next(
-            (c for c in emp.columns if c in ["b4q5_perrv", "broad_sector"]), None
+        broad_col = next(
+            (c for c in emp.columns if c in ["b4q5_perrv", "b4q5_per_rv"]),
+            None
         )
-        if broad_nic_col and broad_nic_col in emp.columns:
+        nic2_col = next(
+            (c for c in emp.columns if c in ["b4q6_perrv", "b4q6_per_rv"]),
+            None
+        )
+        if broad_col:
             try:
-                broad = pd.to_numeric(emp[broad_nic_col], errors='coerce')
-                agri_share    = (w[broad == 1].sum() / w_total * 100)  # 1=agriculture
-                nonagri_share = (w[broad == 2].sum() / w_total * 100)  # 2=non-agriculture
-                svc_share     = None  # Cannot split services from broad 2-digit in 2023-24
-            except Exception:
-                pass
-        elif nic_col and nic_col in emp.columns:
-            try:
-                nic = pd.to_numeric(emp[nic_col].astype(str).str[:2], errors="coerce")
-                agri_share    = (w[nic.isin(AGRI_NIC)].sum()    / w_total * 100)
-                nonagri_share = (w[nic.isin(NONAGRI_NIC)].sum() / w_total * 100)
-                svc_share     = (w[nic.isin(SERVICES_NIC)].sum()/ w_total * 100)
-            except Exception:
+                broad = pd.to_numeric(emp[broad_col], errors='coerce')
+                # 1 = Agriculture/Forestry/Fishing
+                # 2 = Industry (Mining, Manufacturing, Utilities, Construction)
+                # 3 = Services (Trade, Transport, Finance, Public Admin, etc.)
+                agri_share    = float(w[broad == 1].sum() / w_total * 100)
+                nonagri_share = float(w[broad.isin([2, 3])].sum() / w_total * 100)
+                # Services sub-split from b4q6 NIC-2 digit (when available)
+                if nic2_col:
+                    nic2 = pd.to_numeric(emp[nic2_col], errors='coerce')
+                    # NIC 45-96 ≈ services sectors
+                    svc_share = float(w[nic2 >= 45].sum() / w_total * 100)
+            except Exception as e:
                 pass
 
         # Unemployment rate
@@ -278,9 +284,15 @@ def compute_district_stats(df: pd.DataFrame, state_code: int, year: int,
             except Exception:
                 pass
 
-        # Median log real wage (wage workers)
+        # ─── Wages ───────────────────────────────────────────────────────────
+        # Wage earnings: b6q5_3pt1 = weekly earnings for principal regular/casual wage job
+        # In 2019-20: b6q5_3pt1_per_rv; 2021-22/2023-24: b6q5_3pt1_perrv
         log_wage_median, wage_n = None, 0
-        if wage_col and wage_col in emp.columns:
+        wage_col = next(
+            (c for c in emp.columns if 'b6q5_3pt1' in c or c in ["wage_earnings", "wage_per_day"]),
+            None
+        )
+        if wage_col:
             try:
                 ww = emp[pd.to_numeric(emp[act_col], errors='coerce').isin(wage_codes)].copy()
                 wages = pd.to_numeric(ww[wage_col], errors="coerce").dropna()
@@ -333,10 +345,23 @@ def main(year: int, state_code: int, zip_override: str = None):
     if zip_override:
         zip_path = Path(zip_override)
     else:
-        candidates = list(DATA_DIR.glob(f"*{year}*.zip")) + list(DATA_DIR.glob(f"*PLFS*{year}*.zip"))
+        # Try multiple naming conventions:
+        # - *2019*.zip (e.g. PLFS_Annual_2019.zip)
+        # - *19_20*.zip (e.g. CSV_PLFS_19_20.zip)
+        # - *2021-22*.zip (e.g. PLFS_Data_2021-22_CSV.zip)
+        short_year = str(year)[2:]                     # "19" for 2019, "21" for 2021
+        next_short = str(year + 1)[2:]                 # "20" for 2019, "22" for 2021
+        candidates = (
+            list(DATA_DIR.glob(f"*{year}*.zip")) +
+            list(DATA_DIR.glob(f"*{short_year}_{next_short}*.zip")) +
+            list(DATA_DIR.glob(f"*{year}-{year+1}*.zip")) +
+            list(DATA_DIR.glob(f"*{year}-{next_short}*.zip"))
+        )
         if not candidates:
             raise FileNotFoundError(
                 f"No PLFS ZIP for {year} found in {DATA_DIR}.\n"
+                f"Tried patterns: *{year}*, *{short_year}_{next_short}*, *{year}-{next_short}*\n"
+                f"Available ZIPs: {list(DATA_DIR.glob('*.zip'))}\n"
                 f"Download from microdata.gov.in → PLFS Annual {year}-{str(year+1)[2:]}"
             )
         zip_path = candidates[0]
