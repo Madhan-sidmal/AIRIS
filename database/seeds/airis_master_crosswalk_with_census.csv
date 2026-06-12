@@ -1,0 +1,103 @@
+state,state_code_census,state_code_plfs,district_name_standard,census_district_code,plfs_2019_code,plfs_2021_code,plfs_2021_code_status,plfs_2023_code,bharatnet_district_name,bharatnet_treatment,state_group,boundary_note,panel_usable_2x2,panel_usable_3period,data_quality_flag,census_code_resolved,census_district_code_cen,population,rural_population,urban_share,literacy_rate,female_literacy_rate,sc_share,st_share,worker_participation_rate,agri_worker_share
+Karnataka,29,29,Bagalkote,29-201,1.0,1.0,PROBABLE_b1q4_perrv,1.0,Bagalkote,mid,high_connectivity,,True,True,VERIFIED,29-556,29-556,1889752,1291906,31.64,68.82,58.4,16.89,5.14,43.29,61.05
+Karnataka,29,29,Bengaluru Urban,29-202,2.0,2.0,PROBABLE_b1q4_perrv,2.0,Bangalore Urban,early,high_connectivity,Urban district — structurally distinct; consider exclusion from DiD,True,True,SPELLING_MISMATCH,29-583,29-583,990923,722179,27.12,77.93,70.63,21.57,5.34,46.41,46.07
+Karnataka,29,29,Bengaluru Rural,29-203,3.0,3.0,PROBABLE_b1q4_perrv,3.0,Bangalore Rural,early,high_connectivity,,True,True,SPELLING_MISMATCH,29-583,29-583,990923,722179,27.12,77.93,70.63,21.57,5.34,46.41,46.07
+Karnataka,29,29,Bidar,29-204,4.0,4.0,PROBABLE_b1q4_perrv,4.0,Bidar,late,high_connectivity,,True,True,VERIFIED,29-558,29-558,1703300,1277348,25.01,70.51,61.55,23.47,13.85,41.25,59.98
+Karnataka,29,29,Vijayapura,29-205,5.0,5.0,PROBABLE_b1q4_perrv,5.0,Bijapur,late,high_connectivity,PLFS/older sources use Bijapur,True,True,SPELLING_MISMATCH,29-557,29-557,2177331,1675353,23.05,67.15,56.72,20.34,1.81,42.61,66.16
+Karnataka,29,29,Ballari,29-206,6.0,6.0,PROBABLE_b1q4_perrv,6.0,Bellary,mid,high_connectivity,Vijayanagara carved from Ballari in 2021; 2019-20 panel uses Ballari only,True,True,BOUNDARY_CHANGE,29-565,29-565,2452595,1532356,37.52,67.43,58.09,21.1,18.41,45.54,59.47
+Karnataka,29,29,Belagavi,29-207,7.0,7.0,PROBABLE_b1q4_perrv,7.0,Belgaum,mid,high_connectivity,PLFS uses old name Belgaum,True,True,SPELLING_MISMATCH,29-555,29-555,4779661,3568466,25.34,73.48,64.58,12.08,6.22,44.05,64.66
+Karnataka,29,29,Chamarajanagara,29-208,8.0,8.0,PROBABLE_b1q4_perrv,8.0,Chamarajanagar,mid,high_connectivity,Spelling variant,True,True,SPELLING_MISMATCH,29-578,29-578,1020791,845817,17.14,61.43,54.92,25.42,11.78,47.19,67.97
+Karnataka,29,29,Chikkaballapura,29-209,9.0,9.0,PROBABLE_b1q4_perrv,9.0,Chikkaballapura,early,high_connectivity,,True,True,VERIFIED,29-582,29-582,1255104,973985,22.4,69.76,61.55,24.9,12.47,50.97,65.52
+Karnataka,29,29,Chikkamagaluru,29-210,10.0,10.0,PROBABLE_b1q4_perrv,10.0,Chikmagalur,early,high_connectivity,PLFS uses old name Chikmagalur,True,True,SPELLING_MISMATCH,29-570,29-570,1137961,898453,21.05,79.25,73.16,22.29,3.95,49.72,49.84
+Karnataka,29,29,Chitradurga,29-211,11.0,11.0,PROBABLE_b1q4_perrv,11.0,Chitradurga,mid,high_connectivity,,True,True,VERIFIED,29-566,29-566,1659456,1329923,19.86,73.71,65.88,23.45,18.23,51.62,67.78
+Karnataka,29,29,Dakshina Kannada,29-212,12.0,12.0,PROBABLE_b1q4_perrv,12.0,Dakshina Kannada,early,high_connectivity,,True,True,VERIFIED,29-575,29-575,2089649,1093563,47.67,88.57,84.13,7.09,3.94,47.75,6.32
+Karnataka,29,29,Davangere,29-213,13.0,13.0,PROBABLE_b1q4_perrv,13.0,Davanagere,mid,high_connectivity,Spelling variant,True,True,SPELLING_MISMATCH,29-567,29-567,1945497,1316487,32.33,75.74,68.91,20.18,11.98,44.99,60.18
+Karnataka,29,29,Dharwad,29-214,14.0,14.0,PROBABLE_b1q4_perrv,14.0,Dharwad,early,high_connectivity,,True,True,VERIFIED,29-562,29-562,1847023,797484,56.82,80.0,73.46,9.63,4.74,42.49,47.39
+Karnataka,29,29,Gadag,29-215,15.0,15.0,PROBABLE_b1q4_perrv,15.0,Gadag,mid,high_connectivity,,True,True,VERIFIED,29-561,29-561,1064570,685261,35.63,75.12,65.44,16.36,5.79,46.57,66.12
+Karnataka,29,29,Hassan,29-216,16.0,16.0,PROBABLE_b1q4_perrv,16.0,Hassan,early,high_connectivity,,True,True,VERIFIED,29-574,29-574,1776421,1399658,21.21,76.07,68.6,19.42,1.82,50.87,66.73
+Karnataka,29,29,Haveri,29-217,17.0,17.0,PROBABLE_b1q4_perrv,17.0,Haveri,mid,high_connectivity,,True,True,VERIFIED,29-564,29-564,1597668,1242167,22.25,77.4,70.46,13.77,8.85,45.7,70.45
+Karnataka,29,29,Kalaburagi,29-218,18.0,18.0,PROBABLE_b1q4_perrv,18.0,Gulbarga,late,high_connectivity,Census/new name Kalaburagi; PLFS uses Gulbarga,True,True,SPELLING_MISMATCH,29-579,29-579,2566326,1730775,32.56,64.85,55.09,25.28,2.54,42.36,58.46
+Karnataka,29,29,Kodagu,29-219,19.0,19.0,PROBABLE_b1q4_perrv,19.0,Kodagu,early,high_connectivity,,True,True,VERIFIED,29-576,29-576,554519,473531,14.61,82.61,78.14,13.27,10.47,50.3,13.02
+Karnataka,29,29,Kolar,29-220,20.0,20.0,PROBABLE_b1q4_perrv,20.0,Kolar,early,high_connectivity,,True,True,VERIFIED,29-581,29-581,1536401,1056328,31.25,74.39,66.84,30.32,5.13,46.72,53.53
+Karnataka,29,29,Koppal,29-221,21.0,21.0,PROBABLE_b1q4_perrv,21.0,Koppal,late,high_connectivity,,True,True,VERIFIED,29-560,29-560,1389920,1156216,16.81,68.09,57.55,18.61,11.82,47.11,66.65
+Karnataka,29,29,Mandya,29-222,22.0,22.0,PROBABLE_b1q4_perrv,22.0,Mandya,early,high_connectivity,,True,True,VERIFIED,29-573,29-573,1805769,1497407,17.08,70.4,62.54,14.69,1.24,48.26,69.44
+Karnataka,29,29,Mysuru,29-223,23.0,23.0,PROBABLE_b1q4_perrv,23.0,Mysore,early,high_connectivity,PLFS uses old name Mysore,True,True,SPELLING_MISMATCH,29-577,29-577,3001127,1755714,41.5,72.79,67.06,17.88,11.15,43.79,50.24
+Karnataka,29,29,Raichur,29-224,24.0,24.0,PROBABLE_b1q4_perrv,24.0,Raichur,late,high_connectivity,,True,True,VERIFIED,29-559,29-559,1928812,1438464,25.42,59.56,48.73,20.79,19.03,46.84,69.61
+Karnataka,29,29,Ramanagara,29-225,25.0,25.0,PROBABLE_b1q4_perrv,25.0,Ramanagara,early,high_connectivity,,True,True,VERIFIED,29-584,29-584,1082636,814877,24.73,69.22,61.5,18.83,2.12,49.09,58.44
+Karnataka,29,29,Shivamogga,29-226,26.0,26.0,PROBABLE_b1q4_perrv,26.0,Shimoga,mid,high_connectivity,PLFS uses old name Shimoga,True,True,SPELLING_MISMATCH,29-568,29-568,1752753,1129026,35.59,80.45,74.84,17.58,3.73,44.54,57.77
+Karnataka,29,29,Tumakuru,29-227,27.0,27.0,PROBABLE_b1q4_perrv,27.0,Tumkur,early,high_connectivity,PLFS uses old name Tumkur,True,True,SPELLING_MISMATCH,29-571,29-571,2678980,2079902,22.36,75.14,67.38,18.92,7.82,50.57,63.35
+Karnataka,29,29,Udupi,29-228,28.0,28.0,PROBABLE_b1q4_perrv,28.0,Udupi,early,high_connectivity,,True,True,VERIFIED,29-569,29-569,1177361,843300,28.37,86.24,81.58,6.41,4.49,43.59,24.65
+Karnataka,29,29,Uttara Kannada,29-229,29.0,29.0,PROBABLE_b1q4_perrv,29.0,Uttar Kannada,mid,high_connectivity,Spelling variant in older sources,True,True,SPELLING_MISMATCH,29-563,29-563,1437169,1018188,29.15,84.06,78.39,8.1,2.38,42.34,37.45
+Karnataka,29,29,Yadgir,29-230,30.0,30.0,PROBABLE_b1q4_perrv,30.0,Yadgir,late,high_connectivity,,True,True,VERIFIED,29-580,29-580,1174271,953594,18.79,51.83,41.38,23.28,12.51,46.64,71.94
+Karnataka,29,29,Vijayanagara,29-231,,,MISSING,31.0,Vijayanagara,late,high_connectivity,NEW DISTRICT: carved from Ballari in 2021. NO 2019-20 code. Use Ballari (code 6) as proxy for pre-period.,False,False,INCOMPLETE,29-584,29-584,1082636,814877,24.73,69.22,61.5,18.83,2.12,49.09,58.44
+Bihar,10,10,Araria,10-209,1.0,1.0,PROBABLE_b1q4_perrv,1.0,Araria,late,low_connectivity,,True,True,VERIFIED,10-209,10-209,2811569,2642792,6.0,53.53,43.93,13.61,1.38,38.05,85.51
+Bihar,10,10,Arwal,10-240,2.0,2.0,PROBABLE_b1q4_perrv,2.0,Arwal,mid,low_connectivity,Created from Jehanabad 2001,True,True,VERIFIED,10-240,10-240,700843,648994,7.4,67.43,54.85,20.16,0.08,33.72,82.01
+Bihar,10,10,Aurangabad,10-235,,,MISSING,,Aurangabad,mid,low_connectivity,MISSING from PLFS 2019-20 and 2023-24 samples — excluded from panel,False,False,INCOMPLETE,10-235,10-235,2540073,2303219,9.32,70.32,59.71,24.1,0.04,32.98,72.17
+Bihar,10,10,Banka,10-225,4.0,4.0,PROBABLE_b1q4_perrv,,Banka,late,low_connectivity,Not in 2023-24 sample,False,False,MISSING_FROM_SAMPLE,10-225,10-225,2034763,1963450,3.5,58.17,47.66,12.18,4.44,37.9,82.36
+Bihar,10,10,Begusarai,10-222,5.0,5.0,PROBABLE_b1q4_perrv,5.0,Begusarai,mid,low_connectivity,,True,True,VERIFIED,10-222,10-222,2970541,2400718,19.18,63.87,55.21,14.55,0.05,31.58,61.49
+Bihar,10,10,Bhagalpur,10-224,6.0,6.0,PROBABLE_b1q4_perrv,,Bhagalpur,early,low_connectivity,Not in 2023-24 sample,False,False,MISSING_FROM_SAMPLE,10-224,10-224,3037766,2435234,19.83,63.14,54.89,10.49,2.21,32.38,62.06
+Bihar,10,10,Bhojpur,10-231,7.0,7.0,PROBABLE_b1q4_perrv,7.0,Bhojpur,mid,low_connectivity,,True,True,VERIFIED,10-231,10-231,2728407,2338546,14.29,70.47,58.03,15.59,0.51,30.15,67.57
+Bihar,10,10,Buxar,10-232,8.0,8.0,PROBABLE_b1q4_perrv,8.0,Buxar,mid,low_connectivity,,True,True,VERIFIED,10-232,10-232,1706352,1541853,9.64,70.14,58.63,14.75,1.57,31.55,71.38
+Bihar,10,10,Darbhanga,10-215,9.0,9.0,PROBABLE_b1q4_perrv,9.0,Darbhanga,mid,low_connectivity,,True,True,VERIFIED,10-215,10-215,3937385,3554057,9.74,56.56,45.24,15.64,0.07,31.08,71.82
+Bihar,10,10,Gaya,10-236,10.0,10.0,PROBABLE_b1q4_perrv,10.0,Gaya,early,low_connectivity,,True,True,VERIFIED,10-236,10-236,4391418,3809817,13.24,63.67,53.34,30.39,0.07,37.89,69.36
+Bihar,10,10,Gopalganj,10-217,11.0,11.0,PROBABLE_b1q4_perrv,11.0,Gopalganj,mid,low_connectivity,,True,True,VERIFIED,10-217,10-217,2562012,2399207,6.35,65.47,54.81,12.49,2.37,28.42,75.2
+Bihar,10,10,Jamui,10-238,12.0,12.0,PROBABLE_b1q4_perrv,12.0,Jamui,late,low_connectivity,,True,True,VERIFIED,10-238,10-238,1760405,1615072,8.26,59.79,47.28,17.19,4.48,41.33,67.07
+Bihar,10,10,Jehanabad,10-239,13.0,13.0,PROBABLE_b1q4_perrv,13.0,Jehanabad,mid,low_connectivity,,True,True,VERIFIED,10-239,10-239,1125313,990117,12.01,66.8,55.01,19.81,0.11,32.47,72.7
+Bihar,10,10,Kaimur,10-233,14.0,14.0,PROBABLE_b1q4_perrv,14.0,Kaimur (Bhabua),late,low_connectivity,Census name: Kaimur (Bhabua),True,True,SPELLING_MISMATCH,10-233,10-233,1626384,1560813,4.03,69.34,58.4,22.69,3.57,31.43,77.01
+Bihar,10,10,Katihar,10-212,15.0,15.0,PROBABLE_b1q4_perrv,15.0,Katihar,late,low_connectivity,,True,True,VERIFIED,10-212,10-212,3071029,2797207,8.92,52.24,44.39,8.57,5.86,33.0,82.99
+Bihar,10,10,Khagaria,10-223,16.0,16.0,PROBABLE_b1q4_perrv,16.0,Khagaria,mid,low_connectivity,,True,True,VERIFIED,10-223,10-223,1666886,1579727,5.23,57.92,49.56,14.83,0.04,33.64,76.72
+Bihar,10,10,Kishanganj,10-210,17.0,17.0,PROBABLE_b1q4_perrv,17.0,Kishanganj,late,low_connectivity,,True,True,VERIFIED,10-210,10-210,1690400,1529277,9.53,55.46,46.76,6.69,3.8,31.3,81.22
+Bihar,10,10,Lakhisarai,10-227,18.0,18.0,PROBABLE_b1q4_perrv,18.0,Lakhisarai,mid,low_connectivity,,True,True,VERIFIED,10-227,10-227,1000912,857901,14.29,62.42,52.57,15.31,0.83,32.63,73.03
+Bihar,10,10,Madhepura,10-213,19.0,19.0,PROBABLE_b1q4_perrv,19.0,Madhepura,late,low_connectivity,,True,True,VERIFIED,10-213,10-213,2001762,1913301,4.42,52.25,41.74,17.3,0.63,38.84,86.79
+Bihar,10,10,Madhubani,10-207,20.0,20.0,PROBABLE_b1q4_perrv,20.0,Madhubani,mid,low_connectivity,,True,True,VERIFIED,10-207,10-207,4487379,4325884,3.6,58.62,46.16,13.08,0.09,36.48,81.71
+Bihar,10,10,Munger,10-226,21.0,21.0,PROBABLE_b1q4_perrv,21.0,Munger,mid,low_connectivity,,True,True,VERIFIED,10-226,10-226,1367765,987645,27.79,70.46,62.08,13.44,1.56,31.19,56.81
+Bihar,10,10,Muzaffarpur,10-216,22.0,22.0,PROBABLE_b1q4_perrv,22.0,Muzaffarpur,early,low_connectivity,,True,True,VERIFIED,10-216,10-216,4801062,4327625,9.86,63.43,54.67,15.66,0.12,32.23,67.36
+Bihar,10,10,Nalanda,10-229,23.0,23.0,PROBABLE_b1q4_perrv,,Nalanda,early,low_connectivity,Not in 2023-24 sample,False,False,MISSING_FROM_SAMPLE,10-229,10-229,2877653,2419759,15.91,64.43,53.1,21.12,0.05,36.33,72.24
+Bihar,10,10,Nawada,10-237,24.0,24.0,PROBABLE_b1q4_perrv,24.0,Nawada,mid,low_connectivity,,True,True,VERIFIED,10-237,10-237,2219146,2003567,9.71,59.76,48.86,25.47,0.09,36.82,75.14
+Bihar,10,10,Pashchim Champaran,10-203,25.0,25.0,PROBABLE_b1q4_perrv,25.0,West Champaran,late,low_connectivity,Census: Pashchim Champaran,True,True,SPELLING_MISMATCH,10-203,10-203,3935042,3541877,9.99,55.7,44.69,14.08,6.35,37.58,82.25
+Bihar,10,10,Patna,10-230,26.0,26.0,PROBABLE_b1q4_perrv,26.0,Patna,early,low_connectivity,State capital,True,True,VERIFIED,10-230,10-230,5838465,3323875,43.07,70.68,61.96,15.77,0.16,32.23,49.39
+Bihar,10,10,Purba Champaran,10-204,27.0,27.0,PROBABLE_b1q4_perrv,27.0,East Champaran,late,low_connectivity,Census: Purba Champaran,True,True,SPELLING_MISMATCH,10-204,10-204,5099371,4698028,7.87,55.79,45.12,12.74,0.24,34.07,80.94
+Bihar,10,10,Purnia,10-211,28.0,28.0,PROBABLE_b1q4_perrv,28.0,Purnia,mid,low_connectivity,Large PLFS sample (n≈4000),True,True,VERIFIED,10-211,10-211,3264619,2921614,10.51,51.08,42.34,11.98,4.27,35.02,82.43
+Bihar,10,10,Rohtas,10-234,29.0,29.0,PROBABLE_b1q4_perrv,29.0,Rohtas,mid,low_connectivity,,True,True,VERIFIED,10-234,10-234,2959918,2532153,14.45,73.37,62.97,18.57,1.07,31.25,67.43
+Bihar,10,10,Saharsa,10-214,30.0,30.0,PROBABLE_b1q4_perrv,30.0,Saharsa,late,low_connectivity,,True,True,VERIFIED,10-214,10-214,1900661,1744121,8.24,53.2,41.68,16.69,0.32,34.19,80.23
+Bihar,10,10,Samastipur,10-221,31.0,31.0,PROBABLE_b1q4_perrv,31.0,Samastipur,mid,low_connectivity,,True,True,VERIFIED,10-221,10-221,4261566,4113769,3.47,61.86,51.51,18.85,0.04,31.52,75.98
+Bihar,10,10,Saran,10-219,32.0,32.0,PROBABLE_b1q4_perrv,32.0,Saran,mid,low_connectivity,Also known as Chapra,True,True,VERIFIED,10-219,10-219,3951862,3598660,8.94,65.96,54.42,12.0,0.93,26.32,69.75
+Bihar,10,10,Sheikhpura,10-228,33.0,33.0,PROBABLE_b1q4_perrv,33.0,Sheikhpura,mid,low_connectivity,,True,True,VERIFIED,10-228,10-228,636342,527340,17.13,63.86,53.4,20.6,0.1,35.3,73.09
+Bihar,10,10,Sheohar,10-205,34.0,34.0,PROBABLE_b1q4_perrv,34.0,Sheohar,late,low_connectivity,Smallest district in Bihar,True,True,VERIFIED,10-205,10-205,656246,628130,4.28,53.78,45.26,14.73,0.05,32.97,80.91
+Bihar,10,10,Sitamarhi,10-206,35.0,35.0,PROBABLE_b1q4_perrv,35.0,Sitamarhi,mid,low_connectivity,,True,True,VERIFIED,10-206,10-206,3423574,3233076,5.56,52.05,42.41,11.85,0.09,32.56,76.43
+Bihar,10,10,Siwan,10-218,36.0,36.0,PROBABLE_b1q4_perrv,36.0,Siwan,mid,low_connectivity,,True,True,VERIFIED,10-218,10-218,3330464,3147551,5.49,69.45,58.66,11.61,2.61,28.0,68.78
+Bihar,10,10,Supaul,10-208,37.0,37.0,PROBABLE_b1q4_perrv,37.0,Supaul,late,low_connectivity,,True,True,VERIFIED,10-208,10-208,2229076,2123518,4.74,57.67,44.77,15.89,0.46,39.37,86.15
+Bihar,10,10,Vaishali,10-220,38.0,38.0,PROBABLE_b1q4_perrv,38.0,Vaishali,mid,low_connectivity,,True,True,VERIFIED,10-220,10-220,3495021,3261942,6.67,66.6,56.73,21.12,0.07,30.34,71.45
+Rajasthan,8,8,Ajmer,8-119,1.0,1.0,PROBABLE_b1q4_perrv,1.0,Ajmer,mid,intermediate,,True,True,VERIFIED,8-119,8-119,2583052,1547642,40.08,69.33,55.68,18.51,2.46,40.79,42.17
+Rajasthan,8,8,Alwar,8-104,2.0,2.0,PROBABLE_b1q4_perrv,2.0,Alwar,mid,intermediate,,True,True,VERIFIED,8-104,8-104,3674179,3019728,17.81,70.72,56.25,17.77,7.87,46.5,65.3
+Rajasthan,8,8,Banswara,8-125,3.0,3.0,PROBABLE_b1q4_perrv,3.0,Banswara,late,intermediate,High tribal population,True,True,VERIFIED,8-125,8-125,1797485,1669864,7.1,56.33,43.06,4.46,76.38,50.99,81.38
+Rajasthan,8,8,Baran,8-128,4.0,4.0,PROBABLE_b1q4_perrv,4.0,Baran,late,intermediate,,True,True,VERIFIED,8-128,8-128,1222755,968541,20.79,66.66,51.96,18.09,22.64,45.19,72.67
+Rajasthan,8,8,Barmer,8-115,5.0,5.0,PROBABLE_b1q4_perrv,5.0,Barmer,late,intermediate,,True,True,VERIFIED,8-115,8-115,2603751,2421914,6.98,56.53,40.63,16.76,6.77,46.18,73.76
+Rajasthan,8,8,Bharatpur,8-105,6.0,6.0,PROBABLE_b1q4_perrv,6.0,Bharatpur,mid,intermediate,,True,True,VERIFIED,8-105,8-105,2548462,2053363,19.43,70.11,54.24,21.87,2.12,42.03,69.07
+Rajasthan,8,8,Bhilwara,8-122,7.0,7.0,PROBABLE_b1q4_perrv,7.0,Bhilwara,mid,intermediate,,True,True,VERIFIED,8-122,8-122,2408523,1895869,21.28,61.37,47.21,16.94,9.52,47.67,62.55
+Rajasthan,8,8,Bikaner,8-101,8.0,8.0,PROBABLE_b1q4_perrv,8.0,Bikaner,mid,intermediate,,True,True,VERIFIED,8-101,8-101,2363937,1563553,33.86,65.13,53.23,20.88,0.33,41.72,61.15
+Rajasthan,8,8,Bundi,8-121,9.0,9.0,PROBABLE_b1q4_perrv,9.0,Bundi,mid,intermediate,,True,True,VERIFIED,8-121,8-121,1110906,888205,20.05,61.52,46.55,18.97,20.57,47.36,68.78
+Rajasthan,8,8,Chittaurgarh,8-126,10.0,10.0,PROBABLE_b1q4_perrv,10.0,Chittorgarh,late,intermediate,Census: Chittaurgarh,True,True,SPELLING_MISMATCH,8-126,8-126,1544338,1259074,18.47,61.71,46.53,16.2,13.05,51.98,71.84
+Rajasthan,8,8,Churu,8-102,11.0,11.0,PROBABLE_b1q4_perrv,11.0,Churu,mid,intermediate,,True,True,VERIFIED,8-102,8-102,2039547,1463312,28.25,66.75,54.04,22.15,0.55,44.27,73.17
+Rajasthan,8,8,Dausa,8-109,12.0,12.0,PROBABLE_b1q4_perrv,12.0,Dausa,mid,intermediate,Large PLFS sample (n≈4800),True,True,VERIFIED,8-109,8-109,1634409,1432616,12.35,68.16,51.93,21.68,26.51,41.88,68.26
+Rajasthan,8,8,Dhaulpur,8-106,13.0,13.0,PROBABLE_b1q4_perrv,13.0,Dholpur,mid,intermediate,Census: Dhaulpur; common variant: Dholpur,True,True,SPELLING_MISMATCH,8-106,8-106,1206516,959066,20.51,69.08,54.67,20.36,4.86,43.37,58.16
+Rajasthan,8,8,Dungarpur,8-124,14.0,14.0,PROBABLE_b1q4_perrv,14.0,Dungarpur,late,intermediate,High tribal population,True,True,VERIFIED,8-124,8-124,1388552,1299809,6.39,59.46,46.16,3.76,70.82,46.2,64.25
+Rajasthan,8,8,Ganganagar,8-099,15.0,15.0,PROBABLE_b1q4_perrv,15.0,Ganganagar,early,intermediate,Also Sri Ganganagar; Census code 099,True,True,VERIFIED,8-99,8-99,1969168,1433736,27.19,69.64,59.7,36.58,0.68,46.35,54.65
+Rajasthan,8,8,Hanumangarh,8-100,16.0,16.0,PROBABLE_b1q4_perrv,,Hanumangarh,early,intermediate,Not in 2023-24 PLFS sample,False,False,MISSING_FROM_SAMPLE,8-100,8-100,1774692,1424228,19.75,67.13,55.84,27.85,0.81,47.07,64.33
+Rajasthan,8,8,Jaipur,8-110,17.0,17.0,PROBABLE_b1q4_perrv,17.0,Jaipur,early,intermediate,State capital — urban-influenced,True,True,VERIFIED,8-110,8-110,6626178,3154331,52.4,75.51,64.02,15.14,7.97,37.2,35.53
+Rajasthan,8,8,Jaisalmer,8-114,18.0,18.0,PROBABLE_b1q4_perrv,18.0,Jaisalmer,late,intermediate,Very low population density,True,True,VERIFIED,8-114,8-114,669919,580894,13.29,57.22,39.71,14.8,6.33,43.13,61.04
+Rajasthan,8,8,Jalor,8-116,19.0,19.0,PROBABLE_b1q4_perrv,19.0,Jalore,late,intermediate,Census: Jalor,True,True,SPELLING_MISMATCH,8-116,8-116,1828730,1676975,8.3,54.86,38.47,19.53,9.77,49.03,72.65
+Rajasthan,8,8,Jhalawar,8-129,20.0,20.0,PROBABLE_b1q4_perrv,20.0,Jhalawar,mid,intermediate,,True,True,VERIFIED,8-129,8-129,1411129,1181838,16.25,61.5,46.53,17.26,12.91,48.61,78.5
+Rajasthan,8,8,Jhunjhunun,8-103,21.0,21.0,PROBABLE_b1q4_perrv,21.0,Jhunjhunu,mid,intermediate,Census: Jhunjhunun,True,True,SPELLING_MISMATCH,8-103,8-103,2137045,1647966,22.89,74.13,60.95,16.88,1.95,41.86,66.01
+Rajasthan,8,8,Jodhpur,8-113,22.0,22.0,PROBABLE_b1q4_perrv,22.0,Jodhpur,mid,intermediate,,True,True,VERIFIED,8-113,8-113,3687165,2422551,34.3,65.94,51.83,16.49,3.23,40.4,56.01
+Rajasthan,8,8,Karauli,8-107,23.0,23.0,PROBABLE_b1q4_perrv,23.0,Karauli,late,intermediate,,True,True,VERIFIED,8-107,8-107,1458248,1240143,14.96,66.22,48.61,24.31,22.28,43.12,71.68
+Rajasthan,8,8,Kota,8-127,24.0,24.0,PROBABLE_b1q4_perrv,24.0,Kota,early,intermediate,Industrial city,True,True,VERIFIED,8-127,8-127,1951014,774410,60.31,76.56,65.87,20.78,9.42,38.38,36.76
+Rajasthan,8,8,Nagaur,8-112,25.0,25.0,PROBABLE_b1q4_perrv,25.0,Nagaur,mid,intermediate,,True,True,VERIFIED,8-112,8-112,3307743,2670539,19.26,62.8,47.82,21.16,0.31,43.11,69.99
+Rajasthan,8,8,Pali,8-118,26.0,26.0,PROBABLE_b1q4_perrv,26.0,Pali,mid,intermediate,,True,True,VERIFIED,8-118,8-118,2037573,1577567,22.58,62.39,48.01,19.54,7.1,41.34,57.08
+Rajasthan,8,8,Pratapgarh,8-131,27.0,27.0,PROBABLE_b1q4_perrv,27.0,Pratapgarh,late,intermediate,Created 2008; in all PLFS rounds,True,True,VERIFIED,8-131,8-131,867848,796041,8.27,55.97,42.35,6.96,63.42,55.46,83.78
+Rajasthan,8,8,Rajsamand,8-123,28.0,28.0,PROBABLE_b1q4_perrv,28.0,Rajsamand,mid,intermediate,,True,True,VERIFIED,8-123,8-123,1156597,972777,15.89,63.14,47.95,12.81,13.9,47.63,57.04
+Rajasthan,8,8,Sawai Madhopur,8-108,29.0,29.0,PROBABLE_b1q4_perrv,29.0,Sawai Madhopur,mid,intermediate,,True,True,VERIFIED,8-108,8-108,1335551,1069084,19.95,65.39,47.51,20.87,21.4,43.28,69.57
+Rajasthan,8,8,Sikar,8-111,30.0,30.0,PROBABLE_b1q4_perrv,30.0,Sikar,mid,intermediate,,True,True,VERIFIED,8-111,8-111,2677333,2043427,23.68,71.91,58.23,15.64,2.81,37.59,58.54
+Rajasthan,8,8,Sirohi,8-117,31.0,31.0,PROBABLE_b1q4_perrv,31.0,Sirohi,late,intermediate,,True,True,VERIFIED,8-117,8-117,1036346,827692,20.13,55.25,39.73,19.48,28.22,40.51,52.86
+Rajasthan,8,8,Tonk,8-120,32.0,32.0,PROBABLE_b1q4_perrv,32.0,Tonk,mid,intermediate,,True,True,VERIFIED,8-120,8-120,1421326,1103603,22.35,61.58,45.45,20.26,12.54,45.67,67.7
+Rajasthan,8,8,Udaipur,8-130,33.0,33.0,PROBABLE_b1q4_perrv,33.0,Udaipur,mid,intermediate,,True,True,VERIFIED,8-130,8-130,3068420,2459994,19.83,61.82,48.45,6.14,49.71,44.51,61.66
