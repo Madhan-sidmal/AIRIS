@@ -1,0 +1,9 @@
+spec,outcome,label,beta3,se,p_asy,p_boot,ci_lo_boot,ci_hi_boot,G,N,r2_within
+Main (KA+RJ),unemp_rate_wt,Unemployment rate (%),3.0325,1.5509,0.0614,0.04,0.0663,5.8398,27,48,0.1473
+Main (KA+RJ),lfpr_wt,LFPR — Labour Force Participation Rate (%),2.9998,2.0216,0.1499,0.1411,-0.5427,6.5095,27,48,0.092
+Main (KA+RJ),wpr_wt,WPR — Worker Population Ratio (%),0.1819,2.8283,0.9492,0.9459,-5.0682,5.602,27,48,0.0002
+Main (KA+RJ),nilf_share_wt,NILF — Not in Labour Force (%),-2.9998,2.0216,0.1499,0.1411,-6.5095,0.5427,27,48,0.092
+Main (KA+RJ),agri_share_wt,Agricultural employment share (%),-0.268,1.526,0.862,0.8669,-3.0585,2.6151,27,48,0.0014
+Main (KA+RJ),nonagri_share_wt,Non-agricultural employment share (%),0.268,1.526,0.862,0.8669,-2.6151,3.0585,27,48,0.0014
+Main (KA+RJ),services_share,Services employment share (%),-0.1874,2.6487,0.9441,0.9319,-5.6259,4.7124,27,48,0.0002
+Main (KA+RJ),log_wage_median,Median log weekly wage,0.0103,0.0773,0.8955,0.9199,-0.1256,0.1362,26,46,0.0009
